@@ -81,7 +81,7 @@ body {
 }
 
 button:hover {
-    background-color: hsl(0, 0%, 100%, 85%);
+    background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%, 95%);
     cursor: pointer;
 }
@@ -104,11 +104,13 @@ button:hover {
 }
 
 #aftersub .feedback {
-    display: block;
+    display: flex;
+    justify-content: center;
 
     margin: 10% auto;
     max-width: 60%;
-    height: 5%;
+    height: 10%;
+    align-items: center;
     background-color: hsl(216, 12%, 54%, 10%);
     border-radius: 25px;
 }
@@ -116,7 +118,6 @@ button:hover {
 #aftersub .feedback p {
     text-align: center;
     color: hsl(25, 97%, 53%, 95%);
-    padding: 5px;
 }
 
 
